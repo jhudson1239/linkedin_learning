@@ -1,0 +1,1 @@
+Aim of lesson: Class properties

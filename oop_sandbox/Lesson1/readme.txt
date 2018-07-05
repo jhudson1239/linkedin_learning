@@ -1,0 +1,1 @@
+Aim of lesson: learning to create classes

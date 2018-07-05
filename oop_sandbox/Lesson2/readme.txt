@@ -1,0 +1,1 @@
+Aim of lesson: Learning how to create instances.
