@@ -1,0 +1,1 @@
+Aim of lessons: Class methods.
