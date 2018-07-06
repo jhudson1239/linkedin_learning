@@ -1,0 +1,1 @@
+Aim of lesson: understanding visbaility, Setters and Getters.
