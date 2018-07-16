@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sandbox</title>
+
+    <!--Metatags-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Styling-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="master.css">
+
+
+    <!--Scripts-->
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container m-auto">
+        <div class="bg-grey-light rounded w-3/4 mx-auto p-4">
+            
+            <h3 class="w-full text-center">Small FAQ</h3>
+            <p class="w-full text-center mb-2">Please select a category</p>
+            
+            <select name="faq" id="faq-select" class="rounded p-2 w-1/2">
+                <option value="" disabled selected>Pick one</option>
+                <option value="option1">Statements</option>
+                <option value="option2">Online Banking</option>
+                <option value="option3">Who to contact</option>
+            </select>
+
+            <button id="button" class="rounded bg-grey-dark p-2 w-1/3 ">Click Me</button>
+            
+            <details id="option1" class="hidden m-4">
+                <summary>Can you help me with my statement?</summary>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium mollitia optio commodi corrupti iste magni eveniet! Vel, neque aspernatur repellat sed placeat libero animi earum architecto, ipsam nemo, totam natus. 
+            </details>
+
+            <details id="option2" class="hidden m-4">
+                <summary>How do I access my online banking?</summary>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae fugit quas porro? Quis, et aperiam dolor voluptatum ut, harum quidem autem ea odit doloribus iure vel mollitia adipisci odio amet?
+            </details>
+
+            <details id="option3" class="hidden m-4">
+                <summary>Who should I contact if I have problems?</summary>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat illum numquam at facilis beatae voluptas earum eum, quas vel itaque ut unde quod repellendus sunt, impedit, corrupti dolore deleniti facere.
+            </details>
+
+        </div>
+    </div>
+    
+</body>
+</html>
